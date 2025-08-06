@@ -11,7 +11,3 @@
 
 ---
 
-<p align="center">
-  <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_1.png" width="400" />
-  <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_2.png" width="400" />
-</p>
