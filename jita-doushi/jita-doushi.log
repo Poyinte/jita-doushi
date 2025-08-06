@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.19)  6 AUG 2025 20:56
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.19)  7 AUG 2025 01:17
  restricted system commands enabled.
 **d:/Library/日本語/国語における自動詞と他動詞/jita-doushi/jita-doushi
 (d:/Library/日本語/国語における自動詞と他動詞/jita-doushi/jita-doushi.tex
@@ -704,6 +704,44 @@ Package fontspec Info:
 (fontspec)             Roman No9
 (fontspec)             L/BI:mode=node;script=latn;language=dflt;+tlig;"
 
+(load cache: extra_haranoajimincho-medium.luc)
+
+Package fontspec Info: 
+(fontspec)             Harano Aji Mincho Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Harano Aji Mincho Medium/BI"
+(fontspec)             (it probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Harano Aji Mincho Medium/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Harano Aji Mincho Medium/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Harano Aji Mincho Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Harano Aji Mincho Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'HaranoAjiMinchoMedium(0)' created for font
+(fontspec)             'Harano Aji Mincho Medium' with options
+(fontspec)             [YokoFeatures={JFM=jlreq},TateFeatures={JFM=jlreqv},Scale=1,Kerning=Off,Script=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+
  (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen287
@@ -914,10 +952,9 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-No file jita-doushi.aux.
-
+)) (./jita-doushi.aux)
 \openout1 = jita-doushi.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
@@ -938,7 +975,7 @@ LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-《縦組モード》 (c:/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+ 《縦組モード》 (c:/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
 *geometry* driver: auto-detecting
@@ -948,16 +985,16 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: includehead twoside 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 688.5567pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=688.5567pt
+* \textwidth=648.5567pt
 * \textheight=483.69687pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-26.91173pt
+* \topmargin=13.08827pt
 * \headheight=10.0pt
 * \headsep=30.0pt
 * \topskip=10.0pt
@@ -998,6 +1035,14 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 20.0pt on input line 2.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 20.0pt on input line 2.
+LaTeX Font Info:    Font shape `JT3/HaranoAjiMinchoMedium(0)/m/n' will be
+(Font)              scaled to size 20.0pt on input line 2.
+LaTeX Font Info:    Font shape `JY3/HaranoAjiMinchoMedium(0)/m/n' will be
+(Font)              scaled to size 20.0pt on input line 2.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
@@ -1014,10 +1059,6 @@ LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <12> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 9.
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 11.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 11.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 12.0pt on input line 11.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
@@ -1647,19 +1688,19 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25378 strings out of 475518
- 1166513,5906145 words of node,token memory allocated
+ 25408 strings out of 475518
+ 1166540,5906145 words of node,token memory allocated
  15745 words of node memory still in use:
    9 hlist, 1 vlist, 4 rule, 2 glue, 5 kern, 336 penalty, 2 glyph, 5882 attribute, 341 glue_spec, 484 attribute_list, 2 write, 10 user_defined, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:42,2:262549,3:8278,4:18125,5:4466,6:1063,7:30444,8:4,9:26056,10:26
- 47790 multiletter control sequences out of 65536+600000
- 70 fonts using 91149935 bytes
- 125i,14n,128p,1911b,2006s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/Windows/Fonts/NimbusRomNo9L-Med.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/Windows/Fonts/NimbusRomNo9L-Reg.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb>
-Output written on jita-doushi.pdf (28 pages, 433830 bytes).
+   avail lists: 1:38,2:262552,3:8278,4:18129,5:4466,6:1063,7:30448,8:5,9:26060,10:26
+ 47815 multiletter control sequences out of 65536+600000
+ 75 fonts using 110067479 bytes
+ 125i,14n,135p,1911b,2006s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/Windows/Fonts/NimbusRomNo9L-Med.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji-extra/HaranoAjiMincho-Medium.otf><c:/Windows/Fonts/NimbusRomNo9L-Reg.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb>
+Output written on jita-doushi.pdf (28 pages, 440428 bytes).
 
-PDF statistics: 128 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+PDF statistics: 135 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

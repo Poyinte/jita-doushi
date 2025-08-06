@@ -6,8 +6,9 @@
 \ltjenableadjust[lineend = true, priority = true]
 \RequirePackage{luatexja-ruby}
 \ltjsetruby{intergap = -1.8,  fontcmd = \normalsize}
-\RequirePackage[a4paper, top = 30mm, bottom = 25mm, left = 20mm, right = 20mm, headsep = 3\zw]{geometry}
+\RequirePackage[a4paper, top = 30mm, bottom = 25mm, left = 20mm, right = 20mm, headsep = 3\zw, includehead]{geometry}
 \setmainfont{Nimbus Roman No9 L}
+\newjfontfamily\titlejfont{Harano Aji Mincho Medium}
 
 \newcommand{\rmnum}[1]{\romannumeral #1}
 \newcommand{\Rmnum}[1]{\uppercase\expandafter{\romannumeral #1}}
@@ -44,7 +45,7 @@
 }
 
 \RenewBlockHeading{chapter}{0}{
-  font = \huge\centering,
+  font = \huge\centering\titlejfont,
   lines = 5,
   label_format = {},
   after_label_space = 0\zw
@@ -86,7 +87,7 @@
   hline{3-Y} = {0pt},
   stretch = 0.8,
   colsep = 10pt,
-  column{1} = {wd = 2\zw},
+  column{1} = {wd = 2\zw,colsep = 5pt},
   column{2-7} = {wd = 5\zw, cmd = \fixjidori},
   column{8} = {l, m, font = \scriptsize},
   row{1} = {c, rowsep = 4pt, font = \normalsize, cmd = {}},
@@ -108,7 +109,7 @@
         hlines, 
         stretch = 0.8,
   		colsep = 10pt,
-        column{1} = {wd = 2\zw},
+        column{1} = {wd = 2\zw,colsep = 5pt},
 		column{2-7} = {wd = 5\zw, cmd = \fixjidori},
         column{8} = {l, font = \scriptsize},
         caption = （例外）\vspace{-1\zw}
@@ -124,7 +125,7 @@
   hline{3-Y} = {0pt},
   stretch = 0.8,
   colsep = 10pt,
-  column{1} = {wd = 2\zw},
+  column{1} = {wd = 2\zw,colsep = 5pt},
   column{2-8} = {wd = 5\zw, cmd = \fixjidori},
   column{9} = {l, m, font = \scriptsize},
   row{1} = {c, rowsep = 4pt, font = \normalsize, cmd = {}},
