@@ -3,7 +3,7 @@
 
 > 『**国語における自動詞と他動詞**』[^1]の（**別表**）「**当用漢字音訓表**」**の音訓欄に掲げられた動詞の**「**自他の対応**」に基づき、**LuaLaTeX** により再組版を行ったものです。
 > 
-> Recompiled using **LuaLaTeX** based on ***The Correspondence between Intransitive and Transitive Verbs Listed in the Onkun (Reading) Column of the “Tōyō Kanji Hyō (List of General-use Kanji) ” (Appendix)*** in ***Intransitive and Transitive Verbs***[^1] in the Japanese Language.
+> Recompiled using **LuaLaTeX** based on ***The Correspondence between Intransitive and Transitive Verbs Listed in the Onkun (Reading) Column of the “Tōyō Kanji Hyō (List of General-use Kanji) ” (Appendix)*** in ***Intransitive and Transitive Verbs in the Japanese Language***[^1].
 > 
 > 依照《**国語における自動詞と他動詞**》[^1]中的《（**別表**）『**当用漢字音訓表**』**の音訓欄に掲げられた動詞の**「**自他の対応**」》，使用 **LuaLaTeX** 编译重排。
 
