@@ -14,12 +14,12 @@
 <p align="center">
   <table>
     <tr>
-      <td align="center"><br>
-        <strong>重版 | Reprint | 重排版</strong><br><br>
+      <td align="center">
+        <br>重版 | Reprint | 重排版</strong><br><br>
         <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_1.png" height="800">
       </td>
-      <td align="center"><br>
-        <strong>原書 | Original | 原书</strong><br><br>
+      <td align="center">
+        <br>原書 | Original | 原书</strong><br><br>
         <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_2.png" height="800">
       </td>
     </tr>
