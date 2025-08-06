@@ -1,0 +1,152 @@
+\ProvidesPackage{style}
+
+\RequirePackage{tabularray}
+\RequirePackage{luatexja-fontspec}
+\RequirePackage{luatexja-adjust}
+\ltjenableadjust[lineend = true, priority = true]
+\RequirePackage{luatexja-ruby}
+\ltjsetruby{intergap = -1.8,  fontcmd = \normalsize}
+\RequirePackage[a4paper, top = 30mm, bottom = 25mm, left = 20mm, right = 20mm, headsep = 3\zw]{geometry}
+\setmainfont{Nimbus Roman No9 L}
+
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\uppercase\expandafter{\romannumeral #1}}
+\newcommand{\kazu}[1]{\tatechuyoko{#1}}
+\newcommand{\kome}{\llap{\raisebox{.7ex}{\tiny ※}}}
+\newcommand{\sutaa}{\llap{\raisebox{1.3ex}{\tiny ＊}}}
+\newcommand{\fixjidori}[1]{\jidori{5\zw}{#1}}
+\newcommand{\gosuu}[1]{〈\hbox to 1\zw{\kazu{#1}}語〉}
+\newcommand{\daashi}{\centerline{\rule{60\zw}{0.4pt}}}
+
+\setlength{\floatsep}{0pt}
+\setlength{\textfloatsep}{0pt}
+\setlength{\intextsep}{0pt}
+\setlength{\parskip}{0pt}
+
+\RequirePackage{tikz}
+\usetikzlibrary{calc}
+% \inlineoverlay[<x偏移>][<y偏移>]{<浮动内容>}
+\NewDocumentCommand{\inlineoverlay}{O{-1.4ex} O{-2.4ex} m}{%
+  \tikz[baseline=(text.base), overlay, remember picture]{
+    \node (text) {\strut};
+    \node[anchor=base west, inner sep=1pt] at ($(text.base east)+(#2,#1)$) {#3};
+  }%
+}
+
+\newcommand{\yama}{\inlineoverlay{\Big\{}}
+
+\NewPageStyle{body}{
+  yoko,
+  running_head_position = top-left,
+  nombre_position = top-left,
+  odd_running_head = _section,
+  mark_format={_section={#1}}
+}
+
+\RenewBlockHeading{chapter}{0}{
+  font = \huge\centering,
+  lines = 5,
+  label_format = {},
+  after_label_space = 0\zw
+}
+
+\RenewBlockHeading{section}{1}{
+  font = \gtfamily\large,
+  label_format = \kazu{\Roman{section}},
+  after_label_space = 1\zw,
+  lines = 3
+}
+
+\RenewBlockHeading{subsection}{2}{
+  font = \large,
+  label_format = \kazu{\arabic{subsection}},
+  after_label_space = 1\zw,
+  lines = 3,
+  indent= 1\zw
+}
+
+\RenewBlockHeading{subsubsection}{3}{
+  font = \normalsize,
+  label_format = \kazu{\makebox[1\zw]{（\arabic{subsubsection}）}},
+  after_label_space = 1\zw,
+  lines = 1,
+  indent= 2\zw
+}
+
+\DeclareTblrTemplate{head}{default}{}
+\DeclareTblrTemplate{foot}{default}{}
+\DeclareTblrTemplate{caption}{default}{}
+
+\NewDocumentEnvironment{hyo}{s+b}{
+  \begin{longtblr}{%注意此处命令先后顺序会对结果产生影响；可在表格\\后使用\pagebreak手动断页
+  colspec = {|c||c|c|c||c|c|c|X|},
+  rulesep = 1.2pt,
+  width = .97\textwidth,
+  hlines,
+  hline{3-Y} = {0pt},
+  stretch = 0.8,
+  colsep = 10pt,
+  column{1} = {wd = 2\zw},
+  column{2-7} = {wd = 5\zw, cmd = \fixjidori},
+  column{8} = {l, m, font = \scriptsize},
+  row{1} = {c, rowsep = 4pt, font = \normalsize, cmd = {}},
+  row{2} = {abovesep = 4pt, belowsep = \IfBooleanTF{#1}{4pt}{0pt}},
+  row{3-Y} = {rowsep = 0pt},
+ row{Z} = {abovesep =  \IfBooleanTF{#1}{4pt}{0pt}, belowsep = 4pt},
+  }
+  字種 & \jidori{5\zw}{自動詞} & \jidori{5\zw}{他動詞} & \jidori{5\zw}{使役動詞} & 自 & 他 & 使 & \jidori{14\zw}{備考}\\
+  #2
+  \end{longtblr}
+}{}%环境后带*号为独行表格，其行格式需单独设置
+
+\NewDocumentEnvironment{reigai}{+b}{
+    \vspace{-1\zw}
+    \begin{longtblr}{
+        colspec={|c||c|c|c||c|c|c|X|},
+        rulesep = 1.2pt,
+        width = .97\textwidth,
+        hlines, 
+        stretch = 0.8,
+  		colsep = 10pt,
+        column{1} = {wd = 2\zw},
+		column{2-7} = {wd = 5\zw, cmd = \fixjidori},
+        column{8} = {l, font = \scriptsize},
+        caption = （例外）\vspace{-1\zw}
+    }#1\end{longtblr}
+}{}
+
+\NewDocumentEnvironment{enngenn}{s+b}{
+\begin{longtblr}{
+  colspec = {|c||c|c|c|c||c|c|c|X|},
+  rulesep = 1.2pt,
+  width = .97\textwidth,
+  hlines,
+  hline{3-Y} = {0pt},
+  stretch = 0.8,
+  colsep = 10pt,
+  column{1} = {wd = 2\zw},
+  column{2-8} = {wd = 5\zw, cmd = \fixjidori},
+  column{9} = {l, m, font = \scriptsize},
+  row{1} = {c, rowsep = 4pt, font = \normalsize, cmd = {}},
+  row{2} = {abovesep = 4pt, belowsep = 0pt},
+  row{3-Y} = {rowsep = 0pt},
+  row{Z} = {abovesep = 0pt, belowsep = 4pt},
+  }
+  字種 & \jidori{5\zw}{自動詞} & \jidori{5\zw}{他動詞} & \jidori{5\zw}{使役動詞} & \jidori{5\zw}{延言（af）} & 自 & 他 & 使 & \jidori{8\zw}{備考}\\
+#2
+\end{longtblr}
+}{}
+
+\NewDocumentEnvironment{risuto}{+b}{
+\begin{longtblr}{
+  colspec = {|c|c|c|c|c|c|c|c|c|c|c|c|},
+  width = .97\textwidth,
+  hlines, 
+  vlines,
+  colsep = 10pt,
+  column{odd} = {wd = 1\zw},
+  column{even} = {wd = 5\zw, cmd = \fixjidori},
+  }
+#1
+\end{longtblr}
+}{}
