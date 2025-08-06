@@ -9,8 +9,6 @@
 
 [^1]: [島田昌彦 (1979). 『国語における自動詞と他動詞』 明治書院](https://www.google.com.tw/books/edition/_/ESGSAAAAIAAJ?kptab=overview)
 
----
-
 <p align="center">
   <table>
     <tr>
