@@ -14,10 +14,4 @@
 <p align="center">
   <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_1.png" width="400" />
   <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_2.png" width="400" />
-  <br>
-  <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_3.png" width="400" />
-  <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_4.png" width="400" />
-  <br>
-  <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_5.png" width="400" />
-  <img src="https://github.com/Poyinte/jita-doushi/raw/main/images/pic_6.png" width="400" />
 </p>
