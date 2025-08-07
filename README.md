@@ -1,4 +1,7 @@
-# jita-doushi [![Download PDF](https://img.shields.io/badge/Download-PDF-E5322D?style=flat)](https://github.com/Poyinte/jita-doushi/raw/main/jita-doushi/jita-doushi.pdf) [![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-FF0000?logo=youtube&style=flat)](https://youtu.be/OVRd9Eortt8)
+# jita-doushi 
+[![Download PDF](https://img.shields.io/badge/Download-PDF-E5322D?style=flat)](https://github.com/Poyinte/jita-doushi/raw/main/jita-doushi/jita-doushi.pdf) [![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&style=flat)](https://youtu.be/OVRd9Eortt8) 
+[![Watch on Bilibili](https://img.shields.io/badge/Watch%20on%20Bilibili-00A1D6?logo=bilibili&logoColor=white&style=flat)](https://www.bilibili.com/video/BV1tttzzyEzo/)
+
 
 
 > 『**国語における自動詞と他動詞**』[^1]の（**別表**）「**当用漢字音訓表**」**の音訓欄に掲げられた動詞の**「**自他の対応**」に基づき、**LuaLaTeX** により再組版を行ったものです。
