@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.19)  7 AUG 2025 02:53
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.19)  7 AUG 2025 20:18
  restricted system commands enabled.
 **d:/Library/日本語/国語における自動詞と他動詞/jita-doushi/jita-doushi
 (d:/Library/日本語/国語における自動詞と他動詞/jita-doushi/jita-doushi.tex
@@ -1681,15 +1681,11 @@ LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
  25408 strings out of 475518
- 1166540,5906145 words of node,token memory allocated
+ 1166533,5906145 words of node,token memory allocated
  15745 words of node memory still in use:
    9 hlist, 1 vlist, 4 rule, 2 glue, 5 kern, 336 penalty, 2 glyph, 5882 attribute, 341 glue_spec, 484 attribute_list, 2 write, 10 user_defined, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
    avail lists: 1:38,2:262552,3:8278,4:18129,5:4466,6:1063,7:30448,8:5,9:26060,10:26
@@ -1697,7 +1693,7 @@ Here is how much of LuaTeX's memory you used:
  75 fonts using 110067479 bytes
  125i,14n,135p,1911b,2006s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/Windows/Fonts/NimbusRomNo9L-Med.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji-extra/HaranoAjiMincho-Medium.otf><c:/Windows/Fonts/NimbusRomNo9L-Reg.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb>
-Output written on jita-doushi.pdf (28 pages, 440422 bytes).
+Output written on jita-doushi.pdf (28 pages, 440404 bytes).
 
 PDF statistics: 135 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
