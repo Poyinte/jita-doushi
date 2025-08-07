@@ -1,5 +1,5 @@
 # jita-doushi 
-[![Download PDF](https://img.shields.io/badge/Download-PDF-E5322D?style=flat)](https://github.com/Poyinte/jita-doushi/raw/main/jita-doushi/jita-doushi.pdf) [![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&style=flat)](https://youtu.be/OVRd9Eortt8) 
+[![Download PDF](https://img.shields.io/badge/Download-PDF-E5322D?style=flat)](https://github.com/Poyinte/jita-doushi/raw/main/jita-doushi/jita-doushi.pdf) [![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-FF0000?logo=youtube&style=flat)](https://youtu.be/IkpDgkUnfOk) 
 [![Watch on Bilibili](https://img.shields.io/badge/Watch%20on%20Bilibili-00A1D6?logo=bilibili&logoColor=white&style=flat)](https://www.bilibili.com/video/BV1tttzzyEzo/)
 
 
