@@ -10,7 +10,7 @@
 > 
 > 依照《**国語における自動詞と他動詞**》[^1]中的《（**別表**）『**当用漢字音訓表**』**の音訓欄に掲げられた動詞の**「**自他の対応**」》，使用 **LuaLaTeX** 编译重排。
 
-[^1]: [島田昌彦 (1979). 『国語における自動詞と他動詞』 明治書院](https://www.google.com.tw/books/edition/_/ESGSAAAAIAAJ?kptab=overview)
+[^1]: [島田昌彦 (1979). 『国語における自動詞と他動詞』 明治書院](https://www.google.com/books/edition/_/ESGSAAAAIAAJ?kptab=overview)
 
 <p align="center">
   <table>
